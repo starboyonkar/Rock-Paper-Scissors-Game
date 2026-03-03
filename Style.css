@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background:url("https://miro.medium.com/v2/resize:fit:650/1*lQmRWLWbHQNZhb9DtcGEHg.gif") repeat center center/cover;   
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 600px;
+    box-shadow: 0 10px 25px rgba(3,0,0,0.3);
+}
+
+.game-title {
+    margin-bottom: 20px;
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.battle-area {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.player {
+    width: 45%;
+}
+
+.choice-display {
+    font-size: 80px;
+    height: 100px;
+}
+
+.result {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.choices {
+    margin-bottom: 20px;
+}
+
+.choice-btn {
+    font-size: 60px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.choice-btn:hover {
+    transform: scale(1.2);
+}
+
+#reset-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.choice-display {
+    font-size: 80px;
+    height: 100px;
+    display: inline-block;
+    transform: rotate(0deg);   
+}
+
+@keyframes moveHorizontal {
+    0%   { transform: rotate(0deg) translateY(0); }
+    25%  { transform: rotate(0deg) translateY(-20px); }
+    50%  { transform: rotate(0deg) translateY(20px); }
+    75%  { transform: rotate(0deg) translateY(-20px); }
+    100% { transform: rotate(0deg) translateY(0); }
+}
+
+.animate {
+    animation: moveHorizontal 0.6s ease-in-out 3;
+}
+
