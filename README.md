@@ -35,15 +35,6 @@ Vanilla JavaScript (DOM Manipulation & Game Logic)
 
 No frameworks or libraries were used.
 
-# 📁 Project Structure
-Rock-Paper-Scissors/
-│
-├── index.html
-├── style.css
-├── script.js
-├── background.gif
-└── README.md
-
 Make sure your GIF background file is named background.gif and placed in the same folder as the other files.
 
 # 🚀 How to Run the Game
