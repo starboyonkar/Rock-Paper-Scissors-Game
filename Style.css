@@ -7,7 +7,7 @@
 body {
     margin: 0;
     padding: 0;
-    background:url("https://miro.medium.com/v2/resize:fit:650/1*lQmRWLWbHQNZhb9DtcGEHg.gif") repeat center center/cover;   
+    background:url("rock_paper_scissor.gif") repeat center center/cover;   
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
