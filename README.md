@@ -1,11 +1,11 @@
-🎮 Rock, Paper, Scissors Game
+# 🎮 Rock, Paper, Scissors Game
 
 This is a simple and interactive Rock, Paper, Scissors game built using HTML, CSS, and JavaScript.
 The game runs directly in the browser and allows a user to play against the computer with smooth animations and real-time score updates.
 
 The main goal of this project was to practice DOM manipulation, animations, and clean UI design without using any external libraries or frameworks.
 
-✨ What Makes This Version Different?
+# ✨ What Makes This Version Different?
 
 Full screen animated GIF background
 
@@ -25,7 +25,7 @@ Reset button to clear the game
 
 Clean separation of HTML, CSS, and JavaScript
 
-🛠 Technologies Used
+# 🛠 Technologies Used
 
 HTML5
 
@@ -35,7 +35,7 @@ Vanilla JavaScript (DOM Manipulation & Game Logic)
 
 No frameworks or libraries were used.
 
-📁 Project Structure
+# 📁 Project Structure
 Rock-Paper-Scissors/
 │
 ├── index.html
@@ -46,7 +46,7 @@ Rock-Paper-Scissors/
 
 Make sure your GIF background file is named background.gif and placed in the same folder as the other files.
 
-🚀 How to Run the Game
+# 🚀 How to Run the Game
 
 Download or clone this project.
 
@@ -58,7 +58,7 @@ Open index.html in your browser.
 
 That’s it. No installation required.
 
-🎮 How the Game Works
+# 🎮 How the Game Works
 
 When the page loads, both user and computer start with a shaking rock animation.
 
@@ -74,7 +74,7 @@ The score updates automatically.
 
 After a short delay, the game resets and starts shaking again.
 
-🧠 Game Rules
+# 🧠 Game Rules
 
 Rock beats Scissors
 
@@ -86,7 +86,7 @@ Same choice = Draw
 
 The computer choice is generated randomly using JavaScript.
 
-📚 What I Learned From This Project
+# 📚 What I Learned From This Project
 
 How to manipulate the DOM properly
 
@@ -100,7 +100,7 @@ How to structure a small project cleanly
 
 How to build a complete interactive browser game without any library
 
-🔄 Reset Feature
+# 🔄 Reset Feature
 
 The Reset button:
 
@@ -110,7 +110,7 @@ Removes the result message
 
 Keeps the game ready for a new session
 
-📌 Possible Improvements
+# 📌 Possible Improvements
 
 Add sound effects for click and win
 
@@ -124,10 +124,10 @@ Add score history tracking
 
 Add player name input
 
-👨‍💻 Author
+# 👨‍💻 Author
 
 Created as a practice project to strengthen JavaScript and DOM manipulation concepts.
 
-📄 License
+# 📄 License
 
 This project is free to use for learning and personal practice.
